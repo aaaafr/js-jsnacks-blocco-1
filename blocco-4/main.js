@@ -6,7 +6,15 @@
 // Nome = palla
 // Peso = 10
 
-var palla = {
-    nome : "palla",
+var Palla = {
+    nome : "Palla",
     peso : 10,
 }
+
+// Blocco 4 - Snack 1B
+// Attraverso un prompt dare la possibilità
+// all’utente di modificare il peso della palla.
+
+var domanda = prompt("quanto pesa la palla?");
+Palla.peso = domanda;
+console.log(Palla);
